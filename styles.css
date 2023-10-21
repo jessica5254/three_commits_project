@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+    Asignment Name: three_commits_project
+    Author: Jessica Hite
+    Date: 10/21/2023
+
+    Filename:styles.css
+*/
+
+/*Body Styles*/
+body {
+    background-color: rgb(3, 68, 46);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 1.2em;
+    background-color: rgba(127, 255, 212, 0.419);
+    padding: 10px;
+}
+/*Navigation Styles */
+nav {
+    background-color: rgba(9, 220, 79, 0.6);
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    flex: 1;
+    list-style: none;
+}
+
+/*Header Styles */
+h1, h2 {
+    background-color: rgba(240, 155, 63, 0.874);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Image Styles */
+
+img {
+    max-width: 80%;
+    margin-left: 10%;
+}
